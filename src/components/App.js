@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import UseMemo from './UseMemo';
 import ReactMemo from './ReactMemo';
-import ".."
+import "../styles/App.css";
 
 const App = () => {
     const [counter, setCounter] = useState(0);
@@ -25,10 +25,10 @@ const App = () => {
 
     return (
         <div>
-            <h1 id="main">My todos</h1>
-            <button id="add-todo-btn" onClick={handleAddTodo}>Add todo</button>
-            <button id='incr-cnt' onClick={handleIncrement}>Increment</button>
-            <input id='skill-input' type="text" placeholder="Enter task" onBlur={handleCustomTask} />
+            <h1 id="#main">My todos</h1>
+            <button id="#add-todo-btn" onClick={handleAddTodo}>Add todo</button>
+            <button id='#incr-cnt' onClick={handleIncrement}>Increment</button>
+            <input id='#skill-input' type="text" placeholder="Enter task" onBlur={handleCustomTask} />
             <UseMemo todos={todos} />
             <ReactMemo counter={counter} />
         </div>
