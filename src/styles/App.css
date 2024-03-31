@@ -1,12 +1,31 @@
 h1 {
     color: #27aedb;
     text-align: center;
-    }
-    
+}
 
-button{
+
+button {
     color: #27aedb;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+#main{
+    color:black;
+    background-color: white;
+}
+#add-todo-btn{
+    color:black;
+    background-color: white;
+}
+
+#incr-cnt{
+    color:black;
+    background-color: white;
+}
+
+#skill-input{
+    color:black;
+    background-color: white;
 }
